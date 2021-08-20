@@ -1,0 +1,17 @@
+{
+  "name": "com.storm.storm-tools",
+  "version": "1.0.0",
+  "displayName": "Storm Tools",
+  "description": "A collection of tools and scripts for storm to do storm things.",
+  "unity": "2020.2",
+  "keywords": [
+    "Storm",
+    "Tools",
+    "Utils"
+  ],
+  "author": {
+    "name": "Storm Hughes",
+    "email": "Storm.Hughes8@gmail.com",
+    "url": "https://StormHughes.com"
+  }
+}
