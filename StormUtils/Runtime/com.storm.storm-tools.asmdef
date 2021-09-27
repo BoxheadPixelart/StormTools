@@ -1,0 +1,19 @@
+{
+    "name": "com.storm.storm-tools",
+    "dependencies": {
+        "com.storm.storm-tools": "https://github.com/BoxheadPixelart/StormTools.git"
+    },
+    "rootNamespace": "Storm",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
