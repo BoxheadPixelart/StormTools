@@ -55,13 +55,13 @@ namespace Storm.CharacterController
         void UpdateUprightForce()
         {
             Quaternion CharacterCurrent = transform.rotation;
-            Quaternion toGoal = MathUtils.ShortestRotation(uprightTargetRot, CharacterCurrent);
+           // Quaternion toGoal = MathUtils.ShortestRotation(uprightTargetRot, CharacterCurrent);
             Vector3 rotAxis;
             float rotDegrees;
-            toGoal.ToAngleAxis(out rotDegrees, out rotAxis);
-            rotAxis.Normalize();
-            float rotRadians = rotDegrees * Mathf.Deg2Rad;
-            rb.AddTorque((rotAxis * (rotRadians * data.uprightSpringStrength)) - (rb.angularVelocity * data.uprightSpringDamp)); 
+            //toGoal.ToAngleAxis(out rotDegrees, out rotAxis);
+          //  rotAxis.Normalize();
+           // float rotRadians = rotDegrees * Mathf.Deg2Rad;
+           // rb.AddTorque((rotAxis * (rotRadians * data.uprightSpringStrength)) - (rb.angularVelocity * data.uprightSpringDamp)); 
         }
 #if UNITY_EDITOR
         private void OnDrawGizmosSelected()

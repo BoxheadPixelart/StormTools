@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Storm.Utils; 
+//using Storm; 
 
 namespace Storm.Examples
 {
@@ -16,7 +16,7 @@ namespace Storm.Examples
         // Update is called once per frame
         void Update()
         {
-            float[] SpringFloat = Numeric_Springing.Spring_Float(1, 1, 1, 0, 0, 0); 
+            //float[] SpringFloat = Numeric_Springing.Spring_Float(1, 1, 1, 0, 0, 0); 
         }
     }
 }
